@@ -1,0 +1,40 @@
+Features included:
+
+Frontend:
+- LOGIN PAGE
+    - Separate forms for login and account creation
+    - Password reset
+- HOME PAGE
+    - Header with logo, nav links: home, about, contact, login/create account
+    - Content: App intro and benefits for runners/key Features
+    - Prominent login/create account buttons
+    - Footer with terms of service, privacy policy, social media, contact info
+- USER DASH    
+    - Header user pfp? nav menu: 
+    - Overview with recent training data, injury risk summary, upcoming training
+    - Customizable widgets?
+- TRAINING DATA
+    - Graphs showing training progress over time
+    - Tables with training session data
+    - Filters for data
+    - Ability to export data?
+- INJURY RISK PAGE
+    - Risk assessment: detailed breakdown of injury risk factors and scores
+    - Recommendations for reducing risk
+    - Historical view of injury risk assessments
+- RACE PREDICTION PAGE 
+    - Display predictions 
+    - Historical data comparison
+- SETTINGS
+    - Profile settings: personal info
+    - Notifications?
+    - Preferences? customizing widgets and data display settings
+    - Privacy and data sharing preferences
+- HELP/SUPPORT
+    - FAQs
+    - Contact form
+- ABOUT
+    - Company and personal info
+- RESOURCES?
+    - Articles
+    - Videos

@@ -1,0 +1,24 @@
+Architecture:
+
+Backend:
+- PROJECT
+    - Contains the overall configuration and settings for the PROJECT
+- APPS
+    - Users: handles user authentication and profiles
+    - Dashboard: manages the user dashboard
+    - Training: Deals with training data and analysis
+    - Injury_Risk: manages injury risk assessment
+    - Settings: handles user settings and preferences
+    - Support: handles the help and support Features
+    - Each app will have __init__.py, models.py, views.py, urls.py, forms.py, templates/
+- Other Suggestions
+    - Profile model potentially extending user model
+
+ML model
+- ALGORITHM
+    - Linear regression for race prediction
+    - Logistic regression for injury risk
+    - Decision trees?: classifying
+    - Random forest?: predicting injury risk based on multiple user attributes
+    - Support vector?: Classifying types of running terrains based on gps data
+    - K-Nearest Neighbors?: Classifying runner performance categories based on past performance data
