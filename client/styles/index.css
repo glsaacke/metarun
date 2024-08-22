@@ -1,0 +1,14 @@
+* {
+    font-family: primary;
+}
+
+@font-face {
+    font-family: 'primary';
+    src: url("../assets/fonts/DMSans-VariableFont_opsz\,wght.ttf");
+}
+
+@font-face {
+    font-family: 'primary-ital';
+    src: url("../assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf");
+}
+
