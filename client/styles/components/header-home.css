@@ -1,0 +1,45 @@
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid grey;
+    font-family: primary;
+}
+
+.header-logo{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.header-nav{
+    font-size: large;
+}
+
+.header-nav a{
+    margin: 20px;
+    color: #242325;
+}
+
+.header-login{
+    margin-right: 40px;
+    font-size: large;
+}
+
+.header-login a{
+    color: #F6F6F6;
+    background-color: #7DCFB6;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.header-login a:hover{
+    color:#242325;
+}
+
+.header-login-signup{
+
+}
+
+.header-login-login{
+
+}
