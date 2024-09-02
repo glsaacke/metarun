@@ -6,8 +6,9 @@ body {
 }
 
 header {
-    grid-row: 1;
+    /* grid-row: 1; */
     /* border: 2px dashed red; */
+    height: 10vh;
 }
 
 main {
@@ -17,7 +18,7 @@ main {
     align-items: center;
     grid-row: 2;
     /* border: 2px dashed red; */
-    height: 100%;
+    height: 80vh;
 }
 
 .main-title, .main-body, .main-login {
@@ -49,8 +50,9 @@ main {
 
 
 footer {
-    grid-row: 3;
+    /* grid-row: 3; */
     /* border: 2px dashed red; */
+    height: 10vh;
     background-color: #242325;
 }
 
