@@ -1,0 +1,56 @@
+body {
+    display: grid;
+    grid-template-rows: 1fr 10fr 1fr;
+    height: 100vh;
+    background-color: #F6F6F6;
+}
+
+header {
+    grid-row: 1;
+    /* border: 2px dashed red; */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2;
+    /* border: 2px dashed red; */
+    height: 100%;
+}
+
+.main-title, .main-body, .main-login {
+    text-align: center;
+    font-size: 2rem;
+    width: 55%;
+    margin: 20px
+}
+
+.main-title {
+    font-size: 7rem;
+}
+
+.main-body {
+}
+
+.main-login {
+    color: #F6F6F6;
+    background-color: #7DCFB6;
+    padding: 10px 20px;
+    border-radius: 50px;
+    /* border: 2px dashed red; */
+    width: auto;
+}
+
+.main-login:hover {
+    color: #242325;
+}
+
+
+footer {
+    grid-row: 3;
+    /* border: 2px dashed red; */
+    background-color: #242325;
+}
+
