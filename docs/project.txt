@@ -1,0 +1,3 @@
+Start venv: enter 'venv/scripts/activate' into the ps terminal
+Install requirements: 'py install requirements.txt' after cd into core
+Migrage DB: 'py manage.py makemigrations' then 'py manage.py migrate'
