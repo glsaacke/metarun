@@ -2,6 +2,7 @@ from rest_framework import serializers
 from .models import BlogPost
 from .models import User
 from .models import Activity
+from .models import Faq
 
 class BlogPostSerializer(serializers.ModelSerializer):
     class Meta:
@@ -17,3 +18,8 @@ class ActivitySerializer(serializers.ModelSerializer):
     class Meta:
         model = Activity
         fields = ["id", "title", "type", "distance", "durationHr", "durationMin", "durationSec", "paceMin", "paceSec", "heartrate"]
+
+class FaqSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Faq
+        fields = ["id", "question", "answer", "category", "createdOn", "isPublished", "order"]

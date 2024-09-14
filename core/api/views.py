@@ -4,9 +4,11 @@ from rest_framework.response import Response
 from .models import BlogPost
 from .models import User
 from .models import Activity
+from .models import Faq
 from .serializers import BlogPostSerializer
 from .serializers import UserSerializer
 from .serializers import ActivitySerializer
+from .serializers import FaqSerializer
 from rest_framework.views import APIView
 
 class BlogPostListCreate(generics.ListCreateAPIView):
@@ -51,4 +53,13 @@ class ActivityListCreate(generics.ListCreateAPIView):
 class ActivityRetrieveUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
     queryset = Activity.objects.all()
     serializer_class = ActivitySerializer
+    lookup_field = "pk"
+
+class FaqListCreate(generics.ListCreateAPIView):
+    queryset = Faq.objects.all()
+    serializer_class = FaqSerializer
+
+class FaqRetrieveUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Faq.objects.all()
+    serializer_class = FaqSerializer
     lookup_field = "pk"

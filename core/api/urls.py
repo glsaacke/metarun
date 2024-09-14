@@ -8,4 +8,6 @@ urlpatterns = [
     path("user/<int:pk>/", views.UserRetrieveUpdateDestroy.as_view(), name="update"),
     path("activity/", views.ActivityListCreate.as_view(), name="activity-view-create"),
     path("activity/<int:pk>/", views.ActivityRetrieveUpdateDestroy.as_view(), name="update"),
+    path("faq/", views.FaqListCreate.as_view(), name="faq-view-create"),
+    path("faq/<int:pk>/", views.FaqRetrieveUpdateDestroy.as_view(), name="update"),
 ]

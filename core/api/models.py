@@ -33,3 +33,11 @@ class Activity(models.Model):
 
     def __str__(self):
         return self.title
+    
+class Faq(models.Model):
+    question = models.CharField(max_length=200)
+    answer = models.CharField(max_length=1000)
+    category = models.CharField(max_length=100)
+    createdOn = models.DateTimeField(auto_now_add=True)
+    isPublished = models.BooleanField(default=False)
+    order = models.IntegerField()
